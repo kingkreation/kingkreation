@@ -85,9 +85,9 @@ Example: `CodeAlpha_AgeCalculator/TESTING.md` documents test cases + screenshots
 ---
 
 ## 📫 Let’s Connect
-- LinkedIn: https://linkedin.com/in/<your-linkedin-handle>  
-- Portfolio: https://<your-portfolio-url> (or GitHub Pages link)  
-- Email: <your.email@example.com>
+- LinkedIn: [Joshua Kolawole](https://www.linkedin.com/in/joshua-kolawole-40062a287)  
+- Portfolio: [Processing...](https://comingsoon.com)  
+- Email: [kolawolejoshua459@gmail.com](kolawolejoshua459@gmail.com)  
 
 ---
 

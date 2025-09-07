@@ -28,7 +28,8 @@
 ## 🚀 About Me
 I’m **Joshua Kolawole** — a frontend-focused developer who treats every UI like a product. I combine clean HTML/CSS/JavaScript with careful manual QA practices to deliver interfaces that are both delightful and reliable. I’m currently doing a remote internship with **CodeAlpha** and applying QA skills learned at **TestarsQuarter**.
 
-- 🎓 BSc Physics — Olabisi Onabanjo University (OOU)  
+- 🎓 BSc Physics — Olabisi Onabanjo University (OOU) 2025
+- 🎓 BSc Computer Science — University of People 2026 
 - 🔭 Currently: Frontend Intern @ CodeAlpha (remote)  
 - 🧪 QA: Manual test cases, bug reporting, edge-case validation  
 - 💬 I document progress publicly on GitHub & LinkedIn

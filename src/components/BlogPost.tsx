@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, ExternalLink, Github } from 'lucide-react';
 import { Link } from 'react-router-dom';
 

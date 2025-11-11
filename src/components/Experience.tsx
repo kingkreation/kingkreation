@@ -46,7 +46,7 @@ const experiences: Experience[] = [
     skills: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Git"]
   },
   {
-    id: 4,
+    id: 3,
     title: "Frontend Developer (Volunteer)",
     company: "Bureau of Finance Website - OAU",
     date: "Dec 2024",
@@ -61,7 +61,7 @@ const experiences: Experience[] = [
     skills: ["React", "TypeScript", "Frontend Architecture", "Responsive Design", "Stakeholder Collaboration"]
   },
   {
-    id: 3,
+    id: 4,
     title: "QA Bootcamp Graduate",
     company: "TestarsQuarter",
     date: "Apr 2025 - Jun 2025",
@@ -76,9 +76,8 @@ const experiences: Experience[] = [
     ],
     skills: ["Software Quality Assurance", "Software Testing", "Test Case Design", "Bug Reporting", "Attention to Detail", "Critical Thinking"]
   },
-    
   {
-    id: 4,
+    id: 5,
     title: "Student Intern",
     company: "Idigix Web Design Hub",
     date: "Apr 2025 - Sep 2025",
@@ -90,7 +89,6 @@ const experiences: Experience[] = [
     ],
     skills: ["Web Development", "Programming", "Software Development Life Cycle (SDLC)", "APIs"]
   },
-
   {
     id: 6,
     title: "President",

@@ -72,19 +72,19 @@ const ResumePDF = () => {
               <div>
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-semibold text-gray-900">BSc Physics</h3>
-                    <p className="text-gray-700">Olabisi Onabanjo University, Ogun State, Nigeria</p>
+                    <h3 className="font-semibold text-gray-900">Computer Science (BS)</h3>
+                    <p className="text-gray-700">University of the People (Remote)</p>
                   </div>
-                  <span className="text-gray-600 text-sm">2021 - 2025</span>
+                  <span className="text-gray-600 text-sm">2025 - Present</span>
                 </div>
               </div>
               <div>
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-semibold text-gray-900">Computer Science (BS)</h3>
-                    <p className="text-gray-700">University of the People (Online)</p>
+                    <h3 className="font-semibold text-gray-900">BSc Physics</h3>
+                    <p className="text-gray-700">Olabisi Onabanjo University, Ogun State, Nigeria</p>
                   </div>
-                  <span className="text-gray-600 text-sm">2025 - Present</span>
+                  <span className="text-gray-600 text-sm">2021 - 2025</span>
                 </div>
               </div>
             </div>
@@ -154,14 +154,6 @@ const ResumePDF = () => {
                 </ul>
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900 mb-2">Backend & Services</h3>
-                <ul className="text-gray-700 text-sm space-y-1">
-                  <li>• Git</li>
-                  <li>• GitHub</li>
-                  <li>• REST APIs</li>
-                </ul>
-              </div>
-              <div>
                 <h3 className="font-semibold text-gray-900 mb-2">Testing</h3>
                 <ul className="text-gray-700 text-sm space-y-1">
                   <li>• Manual Testing</li>
@@ -175,8 +167,8 @@ const ResumePDF = () => {
           {/* Projects */}
           <div className="mb-6">
             <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-200 pb-1 mb-3">PROJECTS</h2>
-            <div className="space-y-4">
-              <div>
+            <div className="space-y-4 print-two-columns print-tight-list">
+              <div className="avoid-break-inside">
                 <h3 className="font-semibold text-gray-900">Portfolio Website</h3>
                 <p className="text-gray-700 text-sm mb-1">
                   <a href="https://kingkreation.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Portfolio</a>
@@ -187,22 +179,69 @@ const ResumePDF = () => {
                   <li>• Optimized for performance and accessibility</li>
                 </ul>
               </div>
-              <div>
-                <h3 className="font-semibold text-gray-900">Weather Dashboard</h3>
-                <p className="text-gray-700 text-sm mb-1">React Weather Application</p>
+              <div className="avoid-break-inside">
+                <h3 className="font-semibold text-gray-900">Bureau of Finance Website (OAU)</h3>
+                <p className="text-gray-700 text-sm mb-1">
+                  <a href="https://bof-oau.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Live</a>
+                  <span className="mx-1">•</span>
+                  <a href="https://github.com/kingkreation/bof_oau" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Code</a>
+                </p>
                 <ul className="text-gray-700 text-sm space-y-1">
-                  <li>• Created weather dashboard with real-time data from OpenWeather API</li>
-                  <li>• Implemented geolocation and search functionality</li>
-                  <li>• Designed responsive UI with weather icons and animations</li>
+                  <li>• Volunteer frontend build for OAU’s Bureau of Finance</li>
+                  <li>• Modern design principles and responsive layout</li>
+                  <li>• Deployed and maintained production-ready UI</li>
                 </ul>
               </div>
-              <div>
+              <div className="avoid-break-inside">
                 <h3 className="font-semibold text-gray-900">Task Manager App</h3>
                 <p className="text-gray-700 text-sm mb-1">JavaScript CRUD Application</p>
                 <ul className="text-gray-700 text-sm space-y-1">
                   <li>• Built task management application with vanilla JavaScript</li>
                   <li>• Implemented local storage for data persistence</li>
                   <li>• Created responsive design with CSS Grid and Flexbox</li>
+                </ul>
+              </div>
+              <div className="avoid-break-inside">
+                <h3 className="font-semibold text-gray-900">HNG Stage 2 – Ticket App</h3>
+                <p className="text-gray-700 text-sm mb-1">
+                  <a href="https://kinghngstage2.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Live (React)</a>
+                  <span className="mx-1">•</span>
+                  <a href="https://kinghngstage2.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Live (Vue)</a>
+                  <span className="mx-1">•</span>
+                  <a href="https://kinghngstage2.onrender.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Live (Twig)</a>
+                  <span className="mx-1">•</span>
+                  <a href="https://github.com/kingkreation/HNGStage2" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Code</a>
+                </p>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Implemented across React, Vue, and Twig in a shared repo</li>
+                  <li>• Features ticket selection and booking management</li>
+                  <li>• Responsive design for optimal user experience</li>
+                </ul>
+              </div>
+              <div className="avoid-break-inside">
+                <h3 className="font-semibold text-gray-900">HNG Stage 1 – Profile Card</h3>
+                <p className="text-gray-700 text-sm mb-1">
+                  <a href="https://kingkreation.github.io/HNG_Stage_0/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Live</a>
+                  <span className="mx-1">•</span>
+                  <a href="https://github.com/kingkreation/HNG_Stage_0" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Code</a>
+                </p>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Clean UI with interactive elements</li>
+                  <li>• Built with HTML, CSS, and JavaScript</li>
+                  <li>• Fully responsive layout</li>
+                </ul>
+              </div>
+              <div className="avoid-break-inside">
+                <h3 className="font-semibold text-gray-900">Age Calculator Web App</h3>
+                <p className="text-gray-700 text-sm mb-1">
+                  <a href="https://kingkreation.github.io/CodeAlpha_AgeCalculator/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Live</a>
+                  <span className="mx-1">•</span>
+                  <a href="https://github.com/kingkreation/CodeAlpha_AgeCalculator" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Code</a>
+                </p>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Built during CodeAlpha Web Development Internship</li>
+                  <li>• Includes dark mode and next-birthday countdown</li>
+                  <li>• Responsive interface with accessible interactions</li>
                 </ul>
               </div>
             </div>

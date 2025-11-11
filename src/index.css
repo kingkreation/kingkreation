@@ -33,6 +33,35 @@
   .resume-page {
     page-break-after: always;
   }
+
+  /* Force a new page before the element */
+  .page-break-before {
+    break-before: page;
+    page-break-before: always; /* legacy fallback */
+  }
+
+  /* Force a new page after the element */
+  .page-break-after {
+    break-after: page;
+    page-break-after: always; /* legacy fallback */
+  }
+
+  /* Prevent breaking inside an item (keep cards intact across columns/pages) */
+  .avoid-break-inside {
+    break-inside: avoid;
+    page-break-inside: avoid; /* legacy fallback */
+  }
+
+  /* Flow content into two columns for compact print layout */
+  .print-two-columns {
+    column-count: 2;
+    column-gap: 1rem;
+  }
+
+  /* Tighter spacing for lists on print */
+  .print-tight-list > * {
+    margin-bottom: 0.5rem;
+  }
 }
 
 /* Used for smooth scrolling to sections */

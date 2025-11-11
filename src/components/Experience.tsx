@@ -32,7 +32,7 @@ const experiences: Experience[] = [
   },
   {
     id: 2,
-    title: "Frontend Developer Intern",
+    title: "Web Developer Intern",
     company: "CodeAlpha",
     date: "May 2025 - Jul 2025",
     type: "Internship",

@@ -26,7 +26,10 @@ const ResumeSection = () => {
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Joshua Kolawole</h3>
-                  <p className="text-blue-600 dark:text-blue-400 mt-1">QA Engineer & Frontend Developer</p>
+                  <p className="text-blue-600 dark:text-blue-400 mt-1">Frontend Web Developer</p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
+                    Ogun state, Nigeria • kolawolejoshua459@gmail.com • LinkedIn: linkedin.com/in/joshua-kolawole • Portfolio: joshuaking.dev • +2349027951602
+                  </p>
                 </div>
                 
                 <div className="flex gap-2">
@@ -57,6 +60,15 @@ const ResumeSection = () => {
                 <div>
                   <h4 className="text-lg font-semibold mb-4 flex items-center">
                     <FileText className="mr-2 text-blue-600 dark:text-blue-400" size={20} />
+                    Profile Summary
+                  </h4>
+                  
+                  <p className="text-gray-700 dark:text-gray-300 mb-6">
+                    Frontend developer with a BSc in Physics from Olabisi Onabanjo University, currently studying Computer Science at the University of the People. Skilled in HTML, CSS and JavaScript, with experience building accessible, responsive user interfaces and applying testing practices to ensure reliability and quality. Completed a 3-month frontend internship at CodeAlpha, the TestarsQuarter QA Bootcamp, and multiple volunteer web projects. Seeking a frontend internship where I can deliver clean UI work and apply strong testing discipline.
+                  </p>
+                  
+                  <h4 className="text-lg font-semibold mb-4 flex items-center">
+                    <FileText className="mr-2 text-blue-600 dark:text-blue-400" size={20} />
                     Resume Highlights
                   </h4>
                   
@@ -73,27 +85,18 @@ const ResumeSection = () => {
                     <li className="flex">
                       <span className="mr-2 text-blue-600 dark:text-blue-400">•</span>
                       <div>
-                        <span className="font-medium">Web Development Intern</span>
+                        <span className="font-medium">3-month Frontend Internship</span>
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                          CodeAlpha, Jun 2025-Present
+                          CodeAlpha
                         </p>
                       </div>
                     </li>
                     <li className="flex">
                       <span className="mr-2 text-blue-600 dark:text-blue-400">•</span>
                       <div>
-                        <span className="font-medium">Student QA Intern</span>
+                        <span className="font-medium">TestarsQuarter QA Bootcamp Graduate</span>
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                          TestarsQuarter, Apr 2025-Jun 2025
-                        </p>
-                      </div>
-                    </li>
-                    <li className="flex">
-                      <span className="mr-2 text-blue-600 dark:text-blue-400">•</span>
-                      <div>
-                        <span className="font-medium">President, GACSFEL OOU</span>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">
-                          Jul 2024-Jul 2025
+                          Completed comprehensive QA training
                         </p>
                       </div>
                     </li>
@@ -101,10 +104,29 @@ const ResumeSection = () => {
                 </div>
                 
                 <div>
+                  <h4 className="text-lg font-semibold mb-4">Technical Skills</h4>
+                  <div className="space-y-2 mb-4">
+                    <p className="text-sm text-gray-700 dark:text-gray-300">
+                      <strong>Languages:</strong> HTML5, CSS3, modern Responsive Design, Tailwind CSS, CSS Modules
+                    </p>
+                    <p className="text-sm text-gray-700 dark:text-gray-300">
+                      <strong>Frameworks & Tools:</strong> React, Next.js (TypeScript), Vue, Twig, Git, Vercel, Netlify
+                    </p>
+                    <p className="text-sm text-gray-700 dark:text-gray-300">
+                      <strong>JavaScript:</strong> ES6+, DOM Manipulation
+                    </p>
+                    <p className="text-sm text-gray-700 dark:text-gray-300">
+                      <strong>Backend & Services:</strong> Convex (backend), Resend
+                    </p>
+                    <p className="text-sm text-gray-700 dark:text-gray-300">
+                      <strong>Testing:</strong> Manual testing
+                    </p>
+                  </div>
+                  
                   <h4 className="text-lg font-semibold mb-4">Key Skills</h4>
                   <div className="flex flex-wrap gap-2">
                     {["HTML", "CSS", "JavaScript", "React", "QA Engineering", "Manual Testing", 
-                      "UI/UX Design", "Public Speaking", "Team Leadership", "Sound Engineering", 
+                      "UI/UX Design", "Public Speaking", "Team Leadership", 
                       "Problem Solving", "Adaptability"].map((skill, idx) => (
                       <span 
                         key={idx}

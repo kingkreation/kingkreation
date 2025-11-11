@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Code, Headphones, Laptop, Lightbulb, PenTool, UsersRound } from 'lucide-react';
+import { Code, Laptop, Lightbulb, PenTool, UsersRound } from 'lucide-react';
 
-type SkillCategory = 'development' | 'leadership' | 'creative' | 'audio' | 'design' | 'technical';
+type SkillCategory = 'development' | 'qa' | 'leadership' | 'creative' | 'design' | 'technical';
 
 interface Skill {
   name: string;
@@ -12,12 +12,26 @@ interface Skill {
 
 const skills: Skill[] = [
   // Development
-  { name: "HTML", level: 4, category: "development" },
-  { name: "CSS", level: 4, category: "development" },
-  { name: "JavaScript", level: 3, category: "development" },
-  { name: "Responsive Design", level: 4, category: "development" },
-  { name: "GitHub", level: 3, category: "development" },
-  { name: "DOM Manipulation", level: 3, category: "development" },
+  { name: "HTML5", level: 5, category: "development" },
+  { name: "CSS3", level: 5, category: "development" },
+  { name: "JavaScript", level: 4, category: "development" },
+  { name: "React", level: 4, category: "development" },
+  { name: "Next.js", level: 3, category: "development" },
+  { name: "TypeScript", level: 3, category: "development" },
+  { name: "Vue", level: 3, category: "development" },
+  { name: "Responsive Design", level: 5, category: "development" },
+  { name: "Tailwind CSS", level: 4, category: "development" },
+  { name: "CSS Modules", level: 3, category: "development" },
+  { name: "Git", level: 4, category: "development" },
+  { name: "DOM Manipulation", level: 4, category: "development" },
+  
+  // QA & Testing
+  { name: "QA Engineering", level: 4, category: "qa" },
+  { name: "Manual Testing", level: 4, category: "qa" },
+  { name: "Bug Reporting", level: 4, category: "qa" },
+  { name: "Test Case Design", level: 4, category: "qa" },
+  { name: "Test Planning", level: 3, category: "qa" },
+  { name: "Software Quality Assurance", level: 4, category: "qa" },
   
   // Leadership
   { name: "Public Speaking", level: 5, category: "leadership" },
@@ -27,17 +41,10 @@ const skills: Skill[] = [
   { name: "Community Building", level: 4, category: "leadership" },
   
   // Creative
-  { name: "Music Production", level: 4, category: "creative" },
-  { name: "Instruments (Drums)", level: 5, category: "creative" },
-  { name: "Keyboard", level: 3, category: "creative" },
-  { name: "Guitar", level: 2, category: "creative" },
-  { name: "Talking Drum", level: 3, category: "creative" },
-  
-  // Audio
-  { name: "Sound Engineering", level: 4, category: "audio" },
-  { name: "Live Mixing", level: 4, category: "audio" },
-  { name: "Microphone Placement", level: 3, category: "audio" },
-  { name: "FOH Operation", level: 3, category: "audio" },
+  { name: "UI/UX Design", level: 4, category: "creative" },
+  { name: "Photography", level: 3, category: "creative" },
+  { name: "Video Editing", level: 3, category: "creative" },
+  { name: "Graphic Design", level: 3, category: "creative" },
   
   // Design
   { name: "Graphic Design", level: 3, category: "design" },
@@ -46,37 +53,37 @@ const skills: Skill[] = [
   { name: "Visual Storytelling", level: 4, category: "design" },
   
   // Technical
-  { name: "QA Engineering", level: 4, category: "technical" },
-  { name: "Manual Testing", level: 4, category: "technical" },
-  { name: "Bug Reporting", level: 4, category: "technical" },
-  { name: "Phone Repair", level: 5, category: "technical" },
-  { name: "Hardware Troubleshooting", level: 4, category: "technical" },
+  { name: "Vercel", level: 3, category: "technical" },
+  { name: "Netlify", level: 3, category: "technical" },
+  { name: "Technical Troubleshooting", level: 4, category: "technical" },
+  { name: "Frontend Architecture", level: 3, category: "technical" },
+  { name: "API Integration", level: 3, category: "technical" },
 ];
 
 const categoryIcons = {
-  development: <Code />,
-  leadership: <UsersRound />,
-  creative: <Lightbulb />,
-  audio: <Headphones />,
-  design: <PenTool />,
-  technical: <Laptop />
+  development: <Code className="w-5 h-5" />,
+  qa: <Code className="w-5 h-5" />,
+  leadership: <UsersRound className="w-5 h-5" />,
+  creative: <Lightbulb className="w-5 h-5" />,
+  design: <PenTool className="w-5 h-5" />,
+  technical: <Laptop className="w-5 h-5" />
 };
 
 const categoryColors = {
   development: "from-blue-600 to-indigo-600 dark:from-blue-500 dark:to-indigo-500",
+  qa: "from-green-600 to-lime-600 dark:from-green-500 dark:to-lime-500",
   leadership: "from-emerald-600 to-teal-600 dark:from-emerald-500 dark:to-teal-500",
   creative: "from-violet-600 to-purple-600 dark:from-violet-500 dark:to-purple-500",
-  audio: "from-amber-600 to-orange-600 dark:from-amber-500 dark:to-orange-500",
   design: "from-pink-600 to-rose-600 dark:from-pink-500 dark:to-rose-500",
   technical: "from-cyan-600 to-sky-600 dark:from-cyan-500 dark:to-sky-500",
 };
 
 const categoryNames = {
   development: "Web Development",
+  qa: "QA & Testing",
   leadership: "Leadership",
   creative: "Creative",
-  audio: "Audio Engineering",
-  design: "Design & Media",
+  design: "Design",
   technical: "Technical",
 };
 

@@ -5,13 +5,31 @@ import { Link } from "react-router-dom";
 const projects = [
   {
     id: 1,
+    title: "Bureau of Finance Website - OAU",
+    description:
+      "A comprehensive website project for Obafemi Awolowo University's Bureau of Finance. Built as a volunteer frontend developer, creating professional web solutions for the university community with modern design principles and responsive functionality.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Responsive Design",
+      "Git",
+      "Frontend Architecture",
+    ],
+    githubUrl: "https://github.com/kingkreation/BOF-OAU-Website",
+    liveUrl: "https://bof.oauife.edu.ng",
+    date: "December 2024",
+  },
+  {
+    id: 2,
     title: "Age Calculator Web App",
     description:
       "A fully responsive, JavaScript-based Age Calculator developed as part of the CodeAlpha Web Development Internship. Features include age calculation, dark mode toggle, countdown to next birthday, and more.",
     image: "https://i.imghippo.com/files/CJFl2969svg.png",
     technologies: [
-      "HTML",
-      "CSS",
+      "HTML5",
+      "CSS3",
       "JavaScript",
       "Responsive Design",
       "GitHub",
@@ -23,38 +41,38 @@ const projects = [
     blogUrl: "/blog/age-calculator",
   },
   {
-    id: 2,
-    title: "QA Assignment Webpage",
+    id: 3,
+    title: "HNG Stage 1 - Profile Card",
     description:
-      "A webpage created to showcase bug reports and user stories as part of the TestarsQuarter QA Internship. The project demonstrates clear documentation of software bugs and user-centered stories with acceptance criteria.",
-    image:
-      "https://images.unsplash.com/photo-1633614208977-69ea9e241df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
-    technologies: [
-      "HTML",
-      "CSS",
-      "Notion",
-      "Google Sheets",
-      "Jira",
-      "Software Testing",
-    ],
-    githubUrl:
-      "https://github.com/kingkreation/kolajosh-day2-assignment-user-story-and-bug-report.git",
-    liveUrl:
-      "https://kingkreation.github.io/kolajosh-day2-assignment-user-story-and-bug-report/",
-    date: "May 2025",
+      "An elegant profile card application built during HNG Internship Stage 1. Showcases modern frontend development skills with clean UI design and interactive elements.",
+    image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "UI/UX Design"],
+    githubUrl: "https://github.com/kingkreation/HNG-Stage1-ProfileCard",
+    liveUrl: "https://kingkreation.github.io/HNG-Stage1-ProfileCard/",
+    date: "October 2025",
   },
   {
-    id: 3,
-    title: "Birthday Present Webpage",
+    id: 4,
+    title: "HNG Stage 2 - Ticket App",
     description:
-      "A custom webpage created as a birthday gift, showcasing creative web development skills and personal design elements. The page serves as both a gift and a demonstration of frontend capabilities.",
-    image:
-      "https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    githubUrl: "https://github.com/kingkreation/Debbie-s-Birthday.git",
-    liveUrl: "https://kingkreation.github.io/Debbie-s-Birthday/",
-    date: "April 2025",
+      "A dynamic ticket booking web application developed for HNG Internship Stage 2. Features include ticket selection, booking management, and responsive design for optimal user experience.",
+    image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    technologies: ["React", "JavaScript", "CSS3", "Responsive Design", "Frontend Architecture"],
+    githubUrl: "https://github.com/kingkreation/HNG-Stage2-TicketApp",
+    liveUrl: "https://kingkreation.github.io/HNG-Stage2-TicketApp/",
+    date: "October 2025",
   },
+  {
+    id: 5,
+    title: "HNG Stage 3 - Audiphile E-commerce",
+    description:
+      "A premium e-commerce web application for audio equipment, bringing Figma designs to life with React and Convex backend. Features product catalog, shopping cart, and seamless checkout experience.",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    technologies: ["React", "TypeScript", "Convex", "Figma", "E-commerce", "Frontend Architecture"],
+    githubUrl: "https://github.com/kingkreation/HNG-Stage3-Audiphile",
+    liveUrl: "https://kingkreation.github.io/HNG-Stage3-Audiphile/",
+    date: "October 2025",
+  }
 ];
 
 const Projects = () => {

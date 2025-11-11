@@ -28,14 +28,6 @@ const timelineEvents: TimelineEvent[] = [
     color: "bg-purple-600 dark:bg-purple-500"
   },
   {
-    id: 3,
-    title: "Phone Engineer at Ipasco Ventures",
-    description: "Started part-time position diagnosing and repairing smartphones",
-    date: "Aug 2023",
-    icon: "work",
-    color: "bg-green-600 dark:bg-green-500"
-  },
-  {
     id: 4,
     title: "Elected President of GACSFEL",
     description: "Took on leadership role at Gospel Apostolic Church Students' Fellowship",
@@ -69,11 +61,35 @@ const timelineEvents: TimelineEvent[] = [
   },
   {
     id: 8,
+    title: "Admitted to University of the People",
+    description: "Started BSc in Computer Science at University of the People",
+    date: "Jun 2025",
+    icon: "education",
+    color: "bg-blue-600 dark:bg-blue-500"
+  },
+  {
+    id: 9,
     title: "BSc Physics Graduation",
     description: "Graduated from Olabisi Onabanjo University",
     date: "Jul 2025",
     icon: "education",
     color: "bg-blue-600 dark:bg-blue-500"
+  },
+  {
+    id: 10,
+    title: "CodeAlpha Internship Completion",
+    description: "Successfully completed frontend development internship at CodeAlpha",
+    date: "Sep 2025",
+    icon: "work",
+    color: "bg-green-600 dark:bg-green-500"
+  },
+  {
+    id: 11,
+    title: "HNG Frontend Development Internship",
+    description: "Started intensive frontend development internship at HNG",
+    date: "Oct 2025",
+    icon: "work",
+    color: "bg-green-600 dark:bg-green-500"
   }
 ];
 

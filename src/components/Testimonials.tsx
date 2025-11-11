@@ -13,27 +13,27 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Dr. Samuel Akindele",
-    position: "Professor",
-    company: "Department of Physics, OOU",
-    quote: "Joshua demonstrated exceptional leadership skills and technical aptitude throughout his academic career. His ability to balance his academic pursuits with leadership responsibilities is commendable.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
-  },
-  {
-    id: 2,
-    name: "Sarah Johnson",
-    position: "QA Manager",
-    company: "TestarsQuarter",
-    quote: "Joshua's attention to detail and analytical thinking made him stand out during our QA bootcamp. He approaches testing methodically and communicates findings clearly.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
-  },
-  {
-    id: 3,
     name: "Michael Adeniyi",
     position: "Web Development Lead",
     company: "CodeAlpha",
-    quote: "Working with Joshua was a pleasure. He picks up new concepts quickly, writes clean code, and actively seeks feedback to improve. His passion for frontend development is evident in his work.",
+    quote: "Working with Joshua was a pleasure. He combines performance instincts with engineering habits, creating with purpose and building with craftsmanship. His multidisciplinary approach sets him apart.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
+  },
+  {
+    id: 2,
+    name: "Kehinde Odunuga",
+    position: "Community Manager",
+    company: "TestarsQuarter",
+    quote: "Joshua's attention to detail and analytical thinking made him stand out during our QA bootcamp. He approaches testing methodically and communicates findings clearly.",
+    image: ""
+  },
+  {
+    id: 3,
+    name: "Gacsfel Community",
+    position: "Student Fellowship",
+    company: "Olabisi Onabanjo University",
+    quote: "Joshua's leadership as President brought spiritual growth, media innovation, and tech support to our fellowship. His faithful stewardship and service-oriented approach created lasting impact in our community.",
+    image: ""
   }
 ];
 

@@ -16,40 +16,72 @@ interface Experience {
 const experiences: Experience[] = [
   {
     id: 1,
-    title: "Web Development Intern",
-    company: "CodeAlpha",
-    date: "Jun 2025 - Present",
+    title: "Frontend Developer Intern",
+    company: "HNG Internship",
+    date: "Oct 2025 - Present",
     type: "Internship",
     location: "Remote",
     description: [
-      "Selected as a Web Development Intern focused on hands-on project learning.",
-      "Building and deploying responsive web projects including an Age Calculator Web App, Music player Web App. Project Management tool(Trello Type) with many features and advanced validation.",
-      "Sharpening problem-solving through GitHub tasks and documenting progress via LinkedIn.",
-      "Growing through feedback and peer collaboration."
+      "Advanced frontend development internship building real-world applications.",
+      "Stage 1: Developed elegant profile card application with modern UI design.",
+      "Stage 2: Built dynamic ticket booking web application with React.",
+      "Stage 3: Created premium Audiphile e-commerce platform from Figma designs using React and Convex backend.",
+      "Demonstrated proficiency in React, TypeScript, and modern frontend architecture."
     ],
-    skills: ["HTML", "CSS", "JavaScript", "React", "Responsive Web Design", "GitHub", "Time Management"]
+    skills: ["React", "TypeScript", "JavaScript", "Frontend Architecture", "Figma", "Convex", "UI/UX Design"]
   },
   {
     id: 2,
-    title: "Student QA Intern",
-    company: "TestarsQuarter",
-    date: "Apr 2025 - Jun 2025",
+    title: "Frontend Developer Intern",
+    company: "CodeAlpha",
+    date: "May 2025 - Jul 2025",
     type: "Internship",
     location: "Remote",
     description: [
-      "Selected as one of the top-performing candidates in the TestarsQuarter Scholarship Bootcamp.",
-      "Practiced real-world test case design and execution.",
-      "Participated in live test reporting sessions using Google tools.",
-      "Collaborated with peers and mentors in Agile-style sessions.",
-      "Improved communication and critical thinking through daily feedback."
+      "Completed a 3-month intensive frontend development internship program.",
+      "Built responsive web applications including an Age Calculator with advanced JavaScript functionality.",
+      "Collaborated on real-world projects with modern web technologies.",
+      "Documented development processes and best practices for team knowledge sharing."
     ],
-    skills: ["Software Quality Assurance", "QA Engineering", "Software Testing", "Attention to Detail", "Critical Thinking", "Reporting"]
+    skills: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Git"]
+  },
+  {
+    id: 4,
+    title: "Frontend Developer (Volunteer)",
+    company: "Bureau of Finance Website - OAU",
+    date: "Dec 2024",
+    type: "Volunteer",
+    location: "Obafemi Awolowo University",
+    description: [
+      "Developed and deployed the official Bureau of Finance website for OAU.",
+      "Built responsive, modern web interface using React and TypeScript.",
+      "Collaborated with university stakeholders to deliver professional web solutions.",
+      "Created scalable frontend architecture for institutional use."
+    ],
+    skills: ["React", "TypeScript", "Frontend Architecture", "Responsive Design", "Stakeholder Collaboration"]
   },
   {
     id: 3,
+    title: "QA Bootcamp Graduate",
+    company: "TestarsQuarter",
+    date: "Apr 2025 - Jun 2025",
+    type: "Bootcamp",
+    location: "Remote",
+    description: [
+      "Completed the TestarsQuarter QA Bootcamp as a scholarship recipient.",
+      "Practiced real-world test case design and execution with hands-on projects.",
+      "Participated in live test reporting sessions using Google tools.",
+      "Collaborated with peers and mentors in Agile-style sessions.",
+      "Developed strong attention to detail and critical thinking skills through daily feedback."
+    ],
+    skills: ["Software Quality Assurance", "Software Testing", "Test Case Design", "Bug Reporting", "Attention to Detail", "Critical Thinking"]
+  },
+    
+  {
+    id: 4,
     title: "Student Intern",
     company: "Idigix Web Design Hub",
-    date: "Apr 2025 - Present",
+    date: "Apr 2025 - Sep 2025",
     type: "Internship",
     location: "Remote",
     description: [
@@ -58,22 +90,9 @@ const experiences: Experience[] = [
     ],
     skills: ["Web Development", "Programming", "Software Development Life Cycle (SDLC)", "APIs"]
   },
+
   {
-    id: 4,
-    title: "Phone Engineer",
-    company: "Ipasco Ventures",
-    date: "Aug 2023 - Present",
-    type: "Part-time",
-    location: "Ogun State, Nigeria",
-    description: [
-      "Diagnosed and repaired smartphones/tablets.",
-      "Optimized repair workflows.",
-      "Liaised with clients for service updates."
-    ],
-    skills: ["Phone Repair", "Hardware Troubleshooting", "Customer Service"]
-  },
-  {
-    id: 5,
+    id: 6,
     title: "President",
     company: "Gacsfel OOU",
     date: "Jul 2024 - Jul 2025",

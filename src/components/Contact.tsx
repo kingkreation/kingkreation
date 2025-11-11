@@ -104,7 +104,7 @@ const Contact = () => {
                         Phone/WhatsApp
                       </h4>
                       <p className="text-gray-800 dark:text-gray-200">
-                        +2349027951602
+                        +234 902 795 1602
                       </p>
                     </div>
                   </div>
@@ -171,7 +171,7 @@ const Contact = () => {
                       <Instagram size={18} />
                     </a>
                     <a
-                      href="https://wa.me/2349027951602"
+                      href="https://wa.me/+2349027951602"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center hover:bg-green-600 hover:text-white transition-colors"

@@ -28,7 +28,7 @@ const Hero = () => {
             </span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-gray-700 dark:text-gray-300 mb-6">
-            QA Engineer | Frontend Developer | Tech Enthusiast
+            Frontend Developer | QA Engineer | Tech Innovator
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-gray-600 dark:text-gray-400 mb-10">
             I’m a purpose-driven Frontend Developer and QA Engineer passionate

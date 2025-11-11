@@ -27,16 +27,16 @@ const About = () => {
               </div>
               <div className="p-6 md:p-8">
                 <div className="uppercase tracking-wide text-sm text-blue-600 dark:text-blue-400 font-semibold mb-1">
-                  BSc Physics Graduate (July 2025)
+                  BSc Computer Science • University of the People (In Progress)
                 </div>
-                <div className="uppercase tracking-wide text-sm text-light blue-600 dark:text-light blue-400 font-semibold mb-1">
-                  BSc Computer Science (July 2026)
+                <div className="uppercase tracking-wide text-sm text-blue-600 dark:text-blue-400 font-semibold mb-1">
+                  BSc Physics • Olabisi Onabanjo University
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
                   Joshua Kolawole
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-4">
-                  I’m Joshua Kolawole, a purpose-driven{" "}
+                  I’m Joshua Kolawole, a multidisciplinary creative and technologist who moves smoothly between{" "}
                   <strong>Frontend Developer</strong> and{" "}
                   <strong>QA Engineer</strong> with a strong passion for
                   creating clean, intuitive, and user-focused digital
@@ -62,15 +62,15 @@ const About = () => {
                   Beyond coding and testing, I am deeply committed to growth,
                   collaboration, and purposeful impact. My academic
                   journey—earning a BSc in Physics at Olabisi Onabanjo
-                  University and securing a scholarship in Computer Science—has
-                  equipped me with both analytical depth and technical
-                  versatility. I believe in{" "}
+                  University and currently pursuing Computer Science at 
+                  University of the People—has equipped me with both analytical depth and 
+                  technical versatility. I believe in{" "}
                   <em>
                     impact over impression, process over perfection, and purpose
                     over popularity,
                   </em>{" "}
-                  and I’m dedicated to applying these values as I build
-                  meaningful solutions and grow in the tech ecosystem.
+                  and I'm dedicated to applying these values as I build meaningful 
+                  solutions and grow in the tech ecosystem.
                 </p>
               </div>
             </div>

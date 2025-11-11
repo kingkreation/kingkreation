@@ -4,17 +4,24 @@ import { Award, GraduationCap } from 'lucide-react';
 const educationData = [
   {
     id: 1,
+    institution: "University of the People",
+    degree: "Bachelor of Science, Computer Science",
+    period: "2025 - Present",
+    description: "Currently pursuing a degree in Computer Science with focus on software development, algorithms, and modern programming paradigms."
+  },
+  {
+    id: 2,
     institution: "Olabisi Onabanjo University (O.O.U)",
     degree: "Bachelor of Science, Physics",
     period: "2021 - 2025",
     description: "Completed with a focus on technical applications and leadership development. Actively participated in student organizations and community service."
   },
   {
-    id: 2,
+    id: 3,
     institution: "Ibadan Grammar School",
     degree: "WASSCE, Technical Science",
     period: "Sep 2014 - Jul 2020",
-    description: "Technical Science emphasis with additional focus on leadership, public speaking, and music."
+    description: "Technical Science emphasis with additional focus on leadership and public speaking."
   }
 ];
 

@@ -44,38 +44,49 @@ const ResumePDF = () => {
         >
           {/* Resume Header */}
           <div className="text-center mb-8 border-b pb-6">
-            <h1 className="text-3xl font-bold text-gray-900">Joshua Kolawole Obaloluwa</h1>
+            <h1 className="text-3xl font-bold text-gray-900">JOSHUA KOLAWOLE</h1>
             <p className="text-xl text-blue-600 mt-1">QA Engineer & Frontend Developer</p>
             <div className="flex justify-center space-x-4 mt-3 text-sm text-gray-600">
-              <span>+2349027951602</span>
-              <span>•</span>
               <span>kolawolejoshua459@gmail.com</span>
               <span>•</span>
-              <span>joshuaking.dev</span>
+              <span>LinkedIn: linkedin.com/in/joshua-kolawole</span>
+              <span>•</span>
+              <span>Portfolio: https://kingkreation.vercel.app/</span>
+              <span>•</span>
+              <span>+2349027951602</span>
             </div>
           </div>
 
           {/* Profile Summary */}
           <div className="mb-6">
-            <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-200 pb-1 mb-3">PROFILE</h2>
+            <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-200 pb-1 mb-3">SUMMARY</h2>
             <p className="text-gray-700">
-              Dedicated QA Engineer and Frontend Developer with a passion for creating robust, user-friendly web applications. 
-              Skilled in manual testing, UI/UX design, and web development technologies. Strong background in Physics with 
-              excellent problem-solving abilities and technical aptitude. Seeking to leverage my technical skills and creative 
-              thinking in a challenging tech role.
+              A Frontend developer and QA Engineer with a BSc in Physics from Olabisi Onabanjo University, currently studying Computer Science at the University of the People. Skilled in HTML, CSS and JavaScript, with experience building accessible, responsive user interfaces and applying testing practices to ensure reliability and quality. Completed a 3-month frontend internship at CodeAlpha, the TestarsQuarter QA Bootcamp, and multiple volunteer web projects. Seeking an internship where I can deliver clean UI work and apply strong testing discipline.
             </p>
           </div>
 
           {/* Education */}
           <div className="mb-6">
             <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-200 pb-1 mb-3">EDUCATION</h2>
-            <div className="mb-3">
-              <div className="flex justify-between">
-                <h3 className="font-bold">Olabisi Onabanjo University</h3>
-                <span className="text-gray-600">2021 - 2025</span>
+            <div className="space-y-3">
+              <div>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h3 className="font-semibold text-gray-900">BSc Physics</h3>
+                    <p className="text-gray-700">Olabisi Onabanjo University, Ogun State, Nigeria</p>
+                  </div>
+                  <span className="text-gray-600 text-sm">2021 - 2025</span>
+                </div>
               </div>
-              <p className="text-gray-800">BSc in Physics</p>
-              <p className="text-gray-600 text-sm">GPA: 4.0/5.0</p>
+              <div>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Computer Science (BS)</h3>
+                    <p className="text-gray-700">University of the People (Online)</p>
+                  </div>
+                  <span className="text-gray-600 text-sm">2025 - Present</span>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -90,10 +101,10 @@ const ResumePDF = () => {
               </div>
               <p className="italic text-gray-800">CodeAlpha</p>
               <ul className="list-disc ml-5 mt-1 text-gray-700">
-                <li>Developed responsive web applications using React and Tailwind CSS</li>
-                <li>Collaborated with senior developers to implement UI designs and functionality</li>
-                <li>Assisted in troubleshooting and debugging frontend issues</li>
-                <li>Participated in code reviews and incorporated feedback into development workflow</li>
+                <li>Built responsive UI components for a web application using React and Tailwind CSS</li>
+                <li>Applied accessibility best practices to ensure WCAG compliance</li>
+                <li>Wrote unit tests for UI components and performed manual QA checks</li>
+                <li>Collaborated with senior developers to implement design specifications</li>
               </ul>
             </div>
 
@@ -112,48 +123,50 @@ const ResumePDF = () => {
             </div>
           </div>
 
-          {/* Leadership */}
-          <div className="mb-6">
-            <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-200 pb-1 mb-3">LEADERSHIP</h2>
-            
-            <div className="mb-4">
-              <div className="flex justify-between">
-                <h3 className="font-bold">President, GACSFEL OOU</h3>
-                <span className="text-gray-600">Jul 2024 - Jul 2025</span>
-              </div>
-              <ul className="list-disc ml-5 mt-1 text-gray-700">
-                <li>Led a team of 15 executives in organizing events and programs</li>
-                <li>Managed organization budget and resources</li>
-                <li>Improved member engagement by 30% through innovative programs</li>
-                <li>Coordinated with university administration and external organizations</li>
-              </ul>
-            </div>
-          </div>
+
 
           {/* Skills */}
           <div className="mb-6">
-            <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-200 pb-1 mb-3">SKILLS</h2>
-            
+            <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-200 pb-1 mb-3">TECHNICAL SKILLS</h2>
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <h3 className="font-bold mb-1">Technical Skills</h3>
-                <ul className="list-disc ml-5 text-gray-700">
-                  <li>HTML5, CSS3, JavaScript</li>
-                  <li>React, Tailwind CSS</li>
-                  <li>Manual Testing</li>
-                  <li>UI/UX Design</li>
-                  <li>Test Case Development</li>
+                <h3 className="font-semibold text-gray-900 mb-2">Languages</h3>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• HTML5</li>
+                  <li>• CSS3</li>
+                  <li>• JavaScript</li>
                 </ul>
               </div>
-              
               <div>
-                <h3 className="font-bold mb-1">Soft Skills</h3>
-                <ul className="list-disc ml-5 text-gray-700">
-                  <li>Team Leadership</li>
-                  <li>Public Speaking</li>
-                  <li>Problem Solving</li>
-                  <li>Adaptability</li>
-                  <li>Sound Engineering</li>
+                <h3 className="font-semibold text-gray-900 mb-2">Frameworks & Libraries</h3>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• React</li>
+                  <li>• Next.js</li>
+                  <li>• Tailwind CSS</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">JavaScript</h3>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• ES6+</li>
+                  <li>• DOM Manipulation</li>
+                  <li>• Async/Await</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">Backend & Services</h3>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Git</li>
+                  <li>• GitHub</li>
+                  <li>• REST APIs</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">Testing</h3>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Manual Testing</li>
+                  <li>• Unit Testing</li>
+                  <li>• WCAG Accessibility</li>
                 </ul>
               </div>
             </div>
@@ -162,22 +175,41 @@ const ResumePDF = () => {
           {/* Projects */}
           <div className="mb-6">
             <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-200 pb-1 mb-3">PROJECTS</h2>
-            
-            <div className="mb-3">
-              <h3 className="font-bold">Portfolio Website</h3>
-              <p className="text-gray-700">Personal portfolio built with React, TypeScript and Tailwind CSS showcasing my projects and skills.</p>
-            </div>
-            
-            <div className="mb-3">
-              <h3 className="font-bold">E-commerce Testing Project</h3>
-              <p className="text-gray-700">Developed and executed comprehensive test plans for an e-commerce platform, ensuring functionality and usability.</p>
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-semibold text-gray-900">Portfolio Website</h3>
+                <p className="text-gray-700 text-sm mb-1">https://kingkreation.vercel.app/</p>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Built responsive portfolio website using React and Tailwind CSS</li>
+                  <li>• Implemented dark mode toggle and smooth animations</li>
+                  <li>• Optimized for performance and accessibility</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900">Weather Dashboard</h3>
+                <p className="text-gray-700 text-sm mb-1">React Weather Application</p>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Created weather dashboard with real-time data from OpenWeather API</li>
+                  <li>• Implemented geolocation and search functionality</li>
+                  <li>• Designed responsive UI with weather icons and animations</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900">Task Manager App</h3>
+                <p className="text-gray-700 text-sm mb-1">JavaScript CRUD Application</p>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Built task management application with vanilla JavaScript</li>
+                  <li>• Implemented local storage for data persistence</li>
+                  <li>• Created responsive design with CSS Grid and Flexbox</li>
+                </ul>
+              </div>
             </div>
           </div>
 
           {/* References */}
-          <div>
+          <div className="mb-6">
             <h2 className="text-xl font-bold text-gray-900 border-b-2 border-gray-200 pb-1 mb-3">REFERENCES</h2>
-            <p className="text-gray-700">Available upon request</p>
+            <p className="text-gray-700 text-sm">References available upon request.</p>
           </div>
         </div>
       )}

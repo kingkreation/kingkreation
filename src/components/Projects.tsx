@@ -8,7 +8,7 @@ const projects = [
     title: "Bureau of Finance Website - OAU",
     description:
       "A comprehensive website project for Obafemi Awolowo University's Bureau of Finance. Built as a volunteer frontend developer, creating professional web solutions for the university community with modern design principles and responsive functionality.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80",
+    image: "https://i.imghippo.com/files/rfz2880huI.png",
     technologies: [
       "React",
       "TypeScript",
@@ -17,8 +17,8 @@ const projects = [
       "Git",
       "Frontend Architecture",
     ],
-    githubUrl: "https://github.com/kingkreation/BOF-OAU-Website",
-    liveUrl: "https://bof.oauife.edu.ng",
+    githubUrl: "https://github.com/kingkreation/bof_oau",
+    liveUrl: "https://bof-oau.vercel.app/",
     date: "December 2024",
   },
   {

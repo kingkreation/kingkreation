@@ -28,7 +28,7 @@ const experiences: Experience[] = [
       "Stage 3: Created premium Audiphile e-commerce platform from Figma designs using React and Convex backend.",
       "Demonstrated proficiency in React, TypeScript, and modern frontend architecture."
     ],
-    skills: ["React", "TypeScript", "JavaScript", "Frontend Architecture", "Figma", "Convex", "UI/UX Design"]
+    skills: ["React", "TypeScript", "JavaScript", "Twig", "Figma", "Convex", "Vue"]
   },
   {
     id: 2,

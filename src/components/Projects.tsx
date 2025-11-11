@@ -19,7 +19,7 @@ const projects = [
     ],
     githubUrl: "https://github.com/kingkreation/bof_oau",
     liveUrl: "https://bof-oau.vercel.app/",
-    date: "December 2024",
+    date: "September 2025",
   },
   {
     id: 2,
@@ -45,21 +45,25 @@ const projects = [
     title: "HNG Stage 1 - Profile Card",
     description:
       "An elegant profile card application built during HNG Internship Stage 1. Showcases modern frontend development skills with clean UI design and interactive elements.",
-    image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80",
+    image: "https://i.imghippo.com/files/EL8777ek.png",
     technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "UI/UX Design"],
-    githubUrl: "https://github.com/kingkreation/HNG-Stage1-ProfileCard",
-    liveUrl: "https://kingkreation.github.io/HNG-Stage1-ProfileCard/",
+    githubUrl: "https://github.com/kingkreation/HNG_Stage_0",
+    liveUrl: "https://kingkreation.github.io/HNG_Stage_0/",
     date: "October 2025",
   },
   {
     id: 4,
     title: "HNG Stage 2 - Ticket App",
     description:
-      "A dynamic ticket booking web application developed for HNG Internship Stage 2. Features include ticket selection, booking management, and responsive design for optimal user experience.",
-    image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    technologies: ["React", "JavaScript", "CSS3", "Responsive Design", "Frontend Architecture"],
-    githubUrl: "https://github.com/kingkreation/HNG-Stage2-TicketApp",
-    liveUrl: "https://kingkreation.github.io/HNG-Stage2-TicketApp/",
+      "A dynamic ticket booking app developed for HNG Internship Stage 2, implemented in three stacks (React, Vue, Twig) all sharing the same repository. Deployed across Vercel (React), Netlify (Vue), and Render (Twig). Features include ticket selection, booking management, and responsive design for optimal user experience.",
+    image: "https://i.imghippo.com/files/Ug1497atM.png",
+    technologies: ["React", "Vue", "Twig", "JavaScript", "CSS3", "Responsive Design", "Frontend Architecture"],
+    githubUrl: "https://github.com/kingkreation/HNGStage2",
+    liveUrls: [
+      { label: "Live (React)", url: "https://kinghngstage2.vercel.app/" },
+      { label: "Live (Vue)", url: "https://kinghngstage2.netlify.app/" },
+      { label: "Live (Twig)", url: "https://kinghngstage2.onrender.com/" }
+    ],
     date: "October 2025",
   },
   {
@@ -67,10 +71,10 @@ const projects = [
     title: "HNG Stage 3 - Audiphile E-commerce",
     description:
       "A premium e-commerce web application for audio equipment, bringing Figma designs to life with React and Convex backend. Features product catalog, shopping cart, and seamless checkout experience.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    image: "https://i.imghippo.com/files/ya3593uz.png",
     technologies: ["React", "TypeScript", "Convex", "Figma", "E-commerce", "Frontend Architecture"],
-    githubUrl: "https://github.com/kingkreation/HNG-Stage3-Audiphile",
-    liveUrl: "https://kingkreation.github.io/HNG-Stage3-Audiphile/",
+    githubUrl: "https://github.com/kingkreation/king-audiophile-ecommerce",
+    liveUrl: "https://king-audiophile-ecommerce.vercel.app/",
     date: "October 2025",
   }
 ];
@@ -147,15 +151,30 @@ const Projects = () => {
                       <Github size={16} className="mr-1" />
                       <span>Code</span>
                     </a>
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center text-sm text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                    >
-                      <ExternalLink size={16} className="mr-1" />
-                      <span>Live Demo</span>
-                    </a>
+                    {Array.isArray((project as any).liveUrls) && (project as any).liveUrls.filter((l: any) => l?.url).length > 0 ? (
+                      (project as any).liveUrls.filter((l: any) => l?.url).map((l: any, idx: number) => (
+                        <a
+                          key={idx}
+                          href={l.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center text-sm text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                        >
+                          <ExternalLink size={16} className="mr-1" />
+                          <span>{l.label || "Live Demo"}</span>
+                        </a>
+                      ))
+                    ) : (
+                      <a
+                        href={(project as any).liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center text-sm text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                      >
+                        <ExternalLink size={16} className="mr-1" />
+                        <span>Live Demo</span>
+                      </a>
+                    )}
                     {project.blogUrl && (
                       <Link
                         to={project.blogUrl}

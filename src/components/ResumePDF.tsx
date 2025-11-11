@@ -45,13 +45,13 @@ const ResumePDF = () => {
           {/* Resume Header */}
           <div className="text-center mb-8 border-b pb-6">
             <h1 className="text-3xl font-bold text-gray-900">JOSHUA KOLAWOLE</h1>
-            <p className="text-xl text-blue-600 mt-1">QA Engineer & Frontend Developer</p>
+            <p className="text-xl text-blue-600 mt-1">Frontend Web Developer & QA Engineer</p>
             <div className="flex justify-center space-x-4 mt-3 text-sm text-gray-600">
               <span>kolawolejoshua459@gmail.com</span>
               <span>•</span>
-              <span>LinkedIn: linkedin.com/in/joshua-kolawole</span>
+              <a href="https://linkedin.com/in/joshua-kolawole" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700">LinkedIn</a>
               <span>•</span>
-              <span>Portfolio: https://kingkreation.vercel.app/</span>
+              <a href="https://kingkreation.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700">Portfolio</a>
               <span>•</span>
               <span>+2349027951602</span>
             </div>
@@ -178,7 +178,9 @@ const ResumePDF = () => {
             <div className="space-y-4">
               <div>
                 <h3 className="font-semibold text-gray-900">Portfolio Website</h3>
-                <p className="text-gray-700 text-sm mb-1">https://kingkreation.vercel.app/</p>
+                <p className="text-gray-700 text-sm mb-1">
+                  <a href="https://kingkreation.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Portfolio</a>
+                </p>
                 <ul className="text-gray-700 text-sm space-y-1">
                   <li>• Built responsive portfolio website using React and Tailwind CSS</li>
                   <li>• Implemented dark mode toggle and smooth animations</li>

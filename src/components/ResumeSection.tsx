@@ -26,9 +26,12 @@ const ResumeSection = () => {
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Joshua Kolawole</h3>
-                  <p className="text-blue-600 dark:text-blue-400 mt-1">Frontend Web Developer</p>
+                  <p className="text-blue-600 dark:text-blue-400 mt-1">Frontend Web Developer & QA Engineer</p>
                   <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                    Ogun state, Nigeria • kolawolejoshua459@gmail.com • LinkedIn: linkedin.com/in/joshua-kolawole • Portfolio: joshuaking.dev • +2349027951602
+                    kolawolejoshua459@gmail.com • 
+                    <a href="https://linkedin.com/in/joshua-kolawole" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">LinkedIn</a> • 
+                    <a href="https://kingkreation.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Portfolio</a> • 
+                    +2349027951602
                   </p>
                 </div>
                 

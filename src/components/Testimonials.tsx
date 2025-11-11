@@ -29,11 +29,11 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Gacsfel Community",
-    position: "Student Fellowship",
-    company: "Olabisi Onabanjo University",
-    quote: "Joshua's leadership as President brought spiritual growth, media innovation, and tech support to our fellowship. His faithful stewardship and service-oriented approach created lasting impact in our community.",
-    image: ""
+    name: "Abdulquadri Fasasi",
+    position: "Head, Corporate Strategy & Branding",
+    company: "The Students' Professional Bureau of Finance, OAU.",
+    quote: "Joshua was a key player in our website development team at The Students' Professional Bureau of Finance, OAU. I supervised him and was impressed by his dedication, technical skills, and attention to detail. He consistently delivered high-quality work, met deadlines, and showed passion for frontend development. Highly recommended!",
+    image: "https://i.imghippo.com/files/BMgL1909AQw.png"
   }
 ];
 

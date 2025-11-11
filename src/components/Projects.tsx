@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     title: "Bureau of Finance Website - OAU",
     description:
-      "A comprehensive website project for Obafemi Awolowo University's Bureau of Finance. Built as a volunteer frontend developer, creating professional web solutions for the university community with modern design principles and responsive functionality.",
+      "A comprehensive website project for The Students' Professional Bureau of Finance, OAU.. Built as a volunteer frontend developer, creating professional web solutions for the university community with modern design principles and responsive functionality.",
     image: "https://i.imghippo.com/files/rfz2880huI.png",
     technologies: [
       "React",

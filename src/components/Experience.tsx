@@ -53,7 +53,7 @@ const experiences: Experience[] = [
     type: "Volunteer",
     location: "Obafemi Awolowo University",
     description: [
-      "Developed and deployed the official Bureau of Finance website for OAU.",
+      "Developed and deployed the official Students' Professional Bureau of Finance, OAU. website for OAU.",
       "Built responsive, modern web interface using React and TypeScript.",
       "Collaborated with university stakeholders to deliver professional web solutions.",
       "Created scalable frontend architecture for institutional use."

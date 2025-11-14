@@ -87,7 +87,7 @@ Example: `CodeAlpha_AgeCalculator/TESTING.md` documents test cases + screenshots
 
 ## 📫 Let’s Connect
 - LinkedIn: [Joshua Kolawole](https://www.linkedin.com/in/joshua-kolawole-40062a287)  
-- Portfolio: [Processing...](https://comingsoon.com)  
+- Portfolio: [www.joshuakolawole.com](https://kingkreation.vercel.app)  
 - Email: [kolawolejoshua459@gmail.com](kolawolejoshua459@gmail.com)  
 
 ---
